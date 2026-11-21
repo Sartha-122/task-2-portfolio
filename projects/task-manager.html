@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A working task manager sample with filters and local browser storage."><title>Daily List — Sample task manager</title><link rel="stylesheet" href="demos.css"><script src="task-manager.js" defer></script></head>
+<body>
+  <header class="topbar"><a class="back" href="../index.html#projects">Back to portfolio</a><span class="sample">Sample project / Task manager</span></header>
+  <main class="page"><p class="eyebrow">A little focus, every day</p><h1>Daily List</h1><p class="lead">Make room for your next good idea. Add a task, check it off, and keep moving.</p>
+    <section class="panel" aria-label="Your tasks">
+      <form id="task-form" class="task-form"><label for="task-input">What would you like to do?</label><input id="task-input" name="task" maxlength="120" placeholder="e.g. Finish my portfolio" autocomplete="off" required><button class="button" type="submit">Add task</button></form>
+      <div class="task-tools"><div class="filters" role="group" aria-label="Filter tasks"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="active" aria-pressed="false">Active</button><button class="filter" type="button" data-filter="completed" aria-pressed="false">Completed</button></div><span class="count" id="task-count"></span></div>
+      <ul class="task-list" id="task-list"></ul>
+      <div class="task-bottom"><span class="note" style="margin:0" id="storage-note">Tasks are saved in this browser only.</span><button class="text-button" type="button" id="clear-completed">Clear completed</button></div>
+      <p class="status" id="task-status" role="status" aria-live="polite"></p>
+    </section>
+    <noscript><p>This interactive demo needs JavaScript enabled in your browser.</p></noscript>
+  </main>
+  <footer class="footer">Built with HTML, CSS, and JavaScript. Your tasks are not sent to a server.</footer>
+</body>
+</html>
