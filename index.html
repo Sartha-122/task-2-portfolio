@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- PERSONALIZE: update your name and description before publishing. -->
+  <meta name="description" content="Your Name's personal portfolio. Explore my web development skills, sample projects, and contact details.">
+  <meta name="theme-color" content="#465bf6">
+  <title>Your Name | Web Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container navigation">
+      <a class="brand" href="#home" aria-label="Your Name, home"><span class="brand-symbol" aria-hidden="true">yn<span>.</span></span><span class="brand-label">Your Name</span></a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let’s talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <!-- PERSONALIZE: replace the placeholder name and introduction. -->
+          <p class="eyebrow">Hello, I’m Your Name</p>
+          <h1 id="hero-title">Building things<br>for <span>the web.</span></h1>
+          <p class="hero-tagline">Web developer. Curious learner. Creative thinker.</p>
+          <p class="hero-description">I turn ideas into clean, responsive websites that feel good to use. This is my little corner of the internet.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work</a>
+            <a class="button button-light" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-stack" aria-label="Technologies used"><span>Built with care &amp;</span><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a developer's code editor" role="img">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="editor-window">
+            <div class="editor-toolbar"><div class="window-dots"><i></i><i></i><i></i></div><span>hello-world.js</span><span class="editor-mark">JS</span></div>
+            <div class="editor-content"><span class="code-comment">// A little about me</span><br><br><span class="code-purple">const</span> developer = {<br><span class="indent">name: <span class="code-green">'Your Name'</span>,</span><br><span class="indent">focus: <span class="code-green">'Web development'</span>,</span><br><span class="indent">loves: [</span><br><span class="indent double"><span class="code-orange">'Clean design'</span>,</span><br><span class="indent double"><span class="code-orange">'Solving problems'</span></span><br><span class="indent">]</span><br>};<br><br><span class="code-blue">buildSomething</span>(<span class="code-green">'meaningful'</span>);</div>
+            <div class="editor-status"><span>● &nbsp; Ready to create</span><span>UTF-8</span></div>
+          </div>
+          <div class="art-tag tag-top"><span aria-hidden="true">&lt;/&gt;</span> Designed with purpose</div>
+          <div class="art-tag tag-bottom"><span class="check-mark" aria-hidden="true">✓</span> Made for every screen</div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>IDEAS INTO INTERFACES</span><span>Learning. Building. Improving.</span></div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <div class="section-intro reveal"><p class="eyebrow">About me</p><h2 id="about-title">A curious mind.<br>A builder at heart.</h2></div>
+        <div class="about-content reveal">
+          <!-- PERSONALIZE: this is a sample bio, not a claim about your experience. -->
+          <p class="large-copy">I’m an aspiring web developer who enjoys turning a blank page into something useful.</p>
+          <p>I’m learning how thoughtful design and good code work together. My focus is on the fundamentals: semantic HTML, responsive CSS, and JavaScript that makes everyday interactions simpler.</p>
+          <p>These sample projects are a space to experiment, solve small problems, and keep improving one build at a time.</p>
+          <h3 class="skills-heading">My toolkit</h3>
+          <ul class="skills-list" aria-label="Skills"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive design</li><li>Git &amp; GitHub</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="eyebrow">Selected work</p><h2 id="projects-title">Small projects.<br>Real learning.</h2></div><p>Three working sample projects.<br>Open a demo and try it out.</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-art landing-art" aria-hidden="true"><div class="mini-browser"><div class="mini-nav"><b>forma<span>®</span></b><span>Studio &nbsp; Work &nbsp; Contact</span></div><div class="mini-landing"><div><span>INDEPENDENT CREATIVE STUDIO</span><strong>Ideas.<br>Made real.</strong><i>Explore the studio</i></div><div class="abstract-shape"></div></div></div></div>
+            <div class="project-body"><p class="project-type">Design &amp; development · Sample</p><h3>Creative studio landing page</h3><p>A bold, responsive landing page with a clear message and smooth navigation.</p><ul class="tech-tags" aria-label="Technologies"><li>HTML</li><li>CSS</li></ul><a class="project-link" href="projects/landing-page.html">View landing page demo</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art tasks-art" aria-hidden="true"><div class="mini-tasks"><div class="mini-task-header"><b>Daily focus</b><span>3 tasks</span></div><p>A little progress, every day.</p><div class="mini-task"><i class="checked">✓</i><span class="done">Sketch a new idea</span></div><div class="mini-task"><i></i><span>Build something useful</span></div><div class="mini-task"><i></i><span>Learn something new</span></div><div class="mini-progress"><span></span></div></div></div>
+            <div class="project-body"><p class="project-type">Interactive application · Sample</p><h3>Daily focus task manager</h3><p>A simple space to add tasks, mark progress, and keep your list on this device.</p><ul class="tech-tags" aria-label="Technologies"><li>JavaScript</li><li>Local storage</li></ul><a class="project-link" href="projects/task-manager.html">View task manager demo</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art calculator-art" aria-hidden="true"><div class="mini-calculator"><div class="mini-display"><small>24 × 7</small><strong>168</strong></div><div class="mini-keys"><i>AC</i><i>±</i><i>%</i><i class="operator">÷</i><i>7</i><i>8</i><i>9</i><i class="operator">×</i><i>4</i><i>5</i><i>6</i><i class="operator">−</i><i>1</i><i>2</i><i>3</i><i class="operator">+</i><i>0</i><i>.</i><i class="equal">=</i></div></div></div>
+            <div class="project-body"><p class="project-type">Everyday utility · Sample</p><h3>Everyday calculator</h3><p>A clean calculator for quick arithmetic, with buttons and keyboard controls.</p><ul class="tech-tags" aria-label="Technologies"><li>JavaScript</li><li>CSS Grid</li></ul><a class="project-link" href="projects/calculator.html">View calculator demo</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="container contact-panel reveal">
+        <div><p class="eyebrow">Say hello</p><h2 id="contact-title">Have an idea?<br>Let’s build it.</h2><p>I’d love to connect, exchange ideas, or talk about a project.</p></div>
+        <div class="contact-actions">
+          <!-- PERSONALIZE: replace BOTH the visible address and mailto address. -->
+          <a class="email-link" href="mailto:hello@example.com">hello@example.com</a>
+          <p class="contact-note">Sample address — replace it with your email.</p>
+          <a class="button button-white" href="mailto:hello@example.com?subject=Let%27s%20connect">Open email app</a>
+          <p class="email-help">Opens a draft in your email app.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container"><p>© <span id="year">2026</span> Your Name. Built with curiosity.</p><a href="#home">Back to top</a></footer>
+</body>
+</html>
