@@ -16,7 +16,7 @@ Download or clone the repository, then open `index.html` in a modern browser. No
 
 ## Personalization
 
-The name, biography, and `hello@example.com` address are intentional placeholders. Update them in `index.html` before using the site as your personal portfolio. Replace all visible and `mailto:` email addresses, and keep project descriptions accurate.
+The portfolio is personalized for Sarthak Gandhamwar. The biography and project descriptions remain sample content and can be edited in `index.html`. Keep descriptions accurate when replacing the sample projects with your own work.
 
 Contact links open the visitor's email application. There is no backend contact form or server-side message delivery. Task-manager data stays in the current browser when local storage is available.
 

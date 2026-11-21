@@ -35,7 +35,7 @@ Responsive design: media queries adapt the layout and navigation to mobile.
 Deployment: the plain HTML/CSS/JS files are ready for GitHub Pages.
 
 PERSONALIZE BEFORE SHARING
-The name, biography, and hello@example.com address are placeholders.
+The name and email are personalized. The biography remains sample content.
 In index.html, update the page title, description, displayed name, tagline,
 About text, and contact address. Change both the visible email text and the
 mailto: link. Check the footer for a name placeholder as well.
@@ -90,7 +90,7 @@ CHECKS COMPLETED
 - Browser checks recorded no JavaScript errors.
 
 BEFORE SUBMISSION
-- Replace the personal placeholders and verify the contact email.
+- Review the sample biography and verify the contact email.
 - Read the HTML, CSS, and JavaScript so you can explain the implementation.
 - Confirm the published GitHub Pages URL opens successfully.
 - Test the mobile menu, project links, task list, and calculator.

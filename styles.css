@@ -1303,3 +1303,9 @@ p{
   }
 }
 
+
+/* Keep the full name and menu comfortable on small screens. */
+@media (max-width: 520px) {
+  .brand { gap: 10px; }
+  .brand-label { max-width: 120px; font-size: 14px; line-height: 1.25; }
+}
