@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A keyboard accessible four-function calculator sample project."><title>Quick Calc — Sample calculator</title><link rel="stylesheet" href="demos.css"><script src="calculator.js" defer></script></head>
+<body>
+  <header class="topbar"><a class="back" href="../index.html#projects">Back to portfolio</a><span class="sample">Sample project / Calculator</span></header>
+  <main class="page calc-page"><p class="eyebrow">Simple tools, thoughtful details</p><h1>Quick Calc</h1><p class="lead">A four-function calculator for everyday arithmetic.</p>
+    <section class="calculator" aria-label="Calculator">
+      <output class="calc-screen" aria-live="polite" aria-atomic="true"><span class="expression" id="calc-expression"></span><span class="calc-value" id="calc-display">0</span></output>
+      <div class="calc-grid">
+        <button class="calc-key utility" type="button" data-action="clear" aria-label="Clear calculator">AC</button><button class="calc-key utility" type="button" data-action="sign" aria-label="Change sign">±</button><button class="calc-key utility" type="button" data-action="backspace" aria-label="Delete last digit">DEL</button><button class="calc-key operator" type="button" data-operator="/" aria-label="Divide">÷</button>
+        <button class="calc-key" type="button" data-digit="7">7</button><button class="calc-key" type="button" data-digit="8">8</button><button class="calc-key" type="button" data-digit="9">9</button><button class="calc-key operator" type="button" data-operator="*" aria-label="Multiply">×</button>
+        <button class="calc-key" type="button" data-digit="4">4</button><button class="calc-key" type="button" data-digit="5">5</button><button class="calc-key" type="button" data-digit="6">6</button><button class="calc-key operator" type="button" data-operator="-" aria-label="Subtract">−</button>
+        <button class="calc-key" type="button" data-digit="1">1</button><button class="calc-key" type="button" data-digit="2">2</button><button class="calc-key" type="button" data-digit="3">3</button><button class="calc-key operator" type="button" data-operator="+" aria-label="Add">+</button>
+        <button class="calc-key zero" type="button" data-digit="0">0</button><button class="calc-key" type="button" data-action="decimal" aria-label="Decimal point">.</button><button class="calc-key equals" type="button" data-action="equals" aria-label="Equals">=</button>
+      </div>
+    </section>
+    <p class="note">Keyboard: 0–9, +, −, *, / and decimal point. Enter calculates, Backspace deletes, and Escape clears. Operations are evaluated from left to right.</p>
+    <p class="status" id="calc-status" role="status" aria-live="polite"></p>
+    <noscript><p>This interactive demo needs JavaScript enabled in your browser.</p></noscript>
+  </main>
+  <footer class="footer">Sample JavaScript project. Results are rounded to 12 significant digits.</footer>
+</body>
+</html>
